@@ -1,0 +1,172 @@
+﻿<Window x:Class="PractikaPM11.RequestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PractikaPM11"
+        mc:Ignorable="d"
+               Title="ХранительПРО - Новая заявка" Height="700" Width="580"
+        WindowStartupLocation="CenterScreen"
+        MinHeight="600" MinWidth="500">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+        <Grid Margin="15">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Оформление заявки на посещение" FontSize="20" FontWeight="Bold" 
+                       HorizontalAlignment="Center" Margin="0,0,0,15"/>
+
+            <!-- Тип заявки -->
+            <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,5">
+                <TextBlock Text="Тип заявки:" Width="150" VerticalAlignment="Center"/>
+                <ComboBox x:Name="cmbRequestType" Width="250" SelectionChanged="CmbRequestType_SelectionChanged">
+                    <ComboBoxItem Content="Личная" IsSelected="True"/>
+                    <ComboBoxItem Content="Групповая"/>
+                </ComboBox>
+            </StackPanel>
+
+            <!-- Информация для пропуска -->
+            <Border Grid.Row="2" BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Padding="10" Margin="0,10">
+                <StackPanel>
+                    <TextBlock Text="📅 Информация для пропуска" FontWeight="Bold" Margin="0,0,0,10"/>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5">
+                        <TextBlock Text="Дата начала:" Width="150" VerticalAlignment="Center"/>
+                        <DatePicker x:Name="dpStartDate" Width="250" SelectedDateChanged="DatePicker_SelectedDateChanged"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5">
+                        <TextBlock Text="Дата окончания:" Width="150" VerticalAlignment="Center"/>
+                        <DatePicker x:Name="dpEndDate" Width="250" SelectedDateChanged="DatePicker_SelectedDateChanged"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5">
+                        <TextBlock Text="Цель посещения:" Width="150" VerticalAlignment="Center"/>
+                        <ComboBox x:Name="cmbPurpose" Width="250" DisplayMemberPath="Name" SelectedValuePath="PurposeId"/>
+                    </StackPanel>
+
+                    <TextBlock x:Name="txtDateError" Foreground="Red" FontSize="11" Margin="155,0,0,0" Visibility="Collapsed"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Принимающая сторона -->
+            <Border Grid.Row="3" BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Padding="10" Margin="0,10">
+                <StackPanel>
+                    <TextBlock Text="🏢 Принимающая сторона" FontWeight="Bold" Margin="0,0,0,10"/>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5">
+                        <TextBlock Text="Подразделение:" Width="150" VerticalAlignment="Center"/>
+                        <ComboBox x:Name="cmbDepartment" Width="250" DisplayMemberPath="Name" SelectedValuePath="DepartmentId"
+                                  SelectionChanged="CmbDepartment_SelectionChanged"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5">
+                        <TextBlock Text="Сотрудник:" Width="150" VerticalAlignment="Center"/>
+                        <ComboBox x:Name="cmbEmployee" Width="250" DisplayMemberPath="FullName" SelectedValuePath="EmployeeId"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <!-- Информация о посетителе -->
+            <Border Grid.Row="4" BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Padding="10" Margin="0,10">
+                <StackPanel>
+                    <TextBlock Text="👤 Информация о посетителе" FontWeight="Bold" Margin="0,0,0,10"/>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,3">
+                        <TextBlock Text="Фамилия:*" Width="150" VerticalAlignment="Center"/>
+                        <TextBox x:Name="txtLastName" Width="250"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,3">
+                        <TextBlock Text="Имя:*" Width="150" VerticalAlignment="Center"/>
+                        <TextBox x:Name="txtFirstName" Width="250"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,3">
+                        <TextBlock Text="Отчество:" Width="150" VerticalAlignment="Center"/>
+                        <TextBox x:Name="txtMiddleName" Width="250"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,3">
+                        <TextBlock Text="Телефон:" Width="150" VerticalAlignment="Center"/>
+                        <TextBox x:Name="txtPhone" Width="250" Text="+7 "/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,3">
+                        <TextBlock Text="Email:*" Width="150" VerticalAlignment="Center"/>
+                        <TextBox x:Name="txtEmail" Width="250"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,3">
+                        <TextBlock Text="Организация:" Width="150" VerticalAlignment="Center"/>
+                        <TextBox x:Name="txtOrganization" Width="250"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,3">
+                        <TextBlock Text="Дата рождения:*" Width="150" VerticalAlignment="Center"/>
+                        <DatePicker x:Name="dpBirthDate" Width="250"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,3">
+                        <TextBlock Text="Серия паспорта:*" Width="150" VerticalAlignment="Center"/>
+                        <TextBox x:Name="txtPassportSeries" Width="80" MaxLength="4"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,3">
+                        <TextBlock Text="Номер паспорта:*" Width="150" VerticalAlignment="Center"/>
+                        <TextBox x:Name="txtPassportNumber" Width="100" MaxLength="6"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,3">
+                        <TextBlock Text="Скан паспорта (PDF):*" Width="150" VerticalAlignment="Center"/>
+                        <Button x:Name="btnSelectScan" Content="Выбрать файл" Width="150" Click="BtnSelectScan_Click"/>
+                    </StackPanel>
+                    <TextBlock x:Name="txtScanPath" FontSize="10" Foreground="Gray" Margin="155,0,0,0"/>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                        <TextBlock Text="Примечание:*" Width="150" VerticalAlignment="Center"/>
+                        <TextBox x:Name="txtComment" Width="250" Height="60" TextWrapping="Wrap" AcceptsReturn="True"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <!-- Групповое посещение (скрыто по умолчанию) -->
+            <Border x:Name="borderGroup" Grid.Row="5" BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Padding="10" Margin="0,10" Visibility="Collapsed">
+                <StackPanel>
+                    <TextBlock Text="👥 Групповое посещение" FontWeight="Bold" Margin="0,0,0,10"/>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5">
+                        <TextBlock Text="Количество человек:" Width="150" VerticalAlignment="Center"/>
+                        <TextBox x:Name="txtGroupCount" Width="80" Text="5"/>
+                    </StackPanel>
+
+                    <TextBlock Text="Для групповых заявок необходимо загрузить список (xlsx)" FontSize="11" Foreground="Gray" Margin="155,5,0,0"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Кнопки -->
+            <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20">
+                <Button x:Name="btnSubmit" Content="✅ Отправить заявку" Width="150" Margin="5" Padding="8" 
+                        Background="Green" Foreground="White" Click="BtnSubmit_Click"/>
+                <Button x:Name="btnCancel" Content="❌ Отмена" Width="150" Margin="5" Padding="8" 
+                        Background="Gray" Foreground="White" Click="BtnCancel_Click"/>
+            </StackPanel>
+
+            <TextBlock x:Name="txtError" Grid.Row="7" Foreground="Red" TextWrapping="Wrap" 
+                       HorizontalAlignment="Center" Visibility="Collapsed" Margin="0,10"/>
+        </Grid>
+    </ScrollViewer>
+</Window>
+
