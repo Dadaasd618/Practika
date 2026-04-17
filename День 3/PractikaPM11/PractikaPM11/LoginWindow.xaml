@@ -1,0 +1,82 @@
+﻿<Window x:Class="PractikaPM11.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PractikaPM11"
+        mc:Ignorable="d"
+        Title="ХранительПРО - Вход" 
+        Height="500" 
+        Width="450"
+        WindowStartupLocation="CenterScreen"
+        Icon="icon.ico">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="ХранительПРО" FontSize="24" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+        <TabControl Grid.Row="1" x:Name="mainTabControl">
+            <!-- Вкладка ВХОД ДЛЯ ПОСЕТИТЕЛЯ -->
+            <TabItem Header="Вход для посетителя">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Email:" Margin="0,5"/>
+                    <TextBox x:Name="txtLoginEmail" Margin="0,5"/>
+
+                    <TextBlock Text="Пароль:" Margin="0,10,0,5"/>
+                    <PasswordBox x:Name="txtLoginPassword" Margin="0,5"/>
+
+                    <TextBlock Text="Способ авторизации:" Margin="0,10,0,5"/>
+                    <ComboBox x:Name="cmbLoginMethod" Margin="0,5">
+                        <ComboBoxItem Content="SQL запрос" IsSelected="True"/>
+                        <ComboBoxItem Content="Хранимая процедура"/>
+                        <ComboBoxItem Content="ORM"/>
+                    </ComboBox>
+
+                    <Button x:Name="btnLogin" Content="Войти" 
+                            Background="Green" Foreground="White"
+                            Margin="0,20" Padding="10" 
+                            Click="BtnLogin_Click"/>
+                </StackPanel>
+            </TabItem>
+
+            <!-- Вкладка РЕГИСТРАЦИЯ -->
+            <TabItem Header="Регистрация">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Email:" Margin="0,5"/>
+                    <TextBox x:Name="txtRegEmail" Margin="0,5"/>
+
+                    <TextBlock Text="Пароль:" Margin="0,10,0,5"/>
+                    <PasswordBox x:Name="txtRegPassword" Margin="0,5"/>
+
+                    <TextBlock Text="Подтверждение пароля:" Margin="0,10,0,5"/>
+                    <PasswordBox x:Name="txtRegConfirmPassword" Margin="0,5"/>
+
+                    <TextBlock Text="Способ регистрации:" Margin="0,10,0,5"/>
+                    <ComboBox x:Name="cmbRegMethod" Margin="0,5">
+                        <ComboBoxItem Content="SQL запрос" IsSelected="True"/>
+                        <ComboBoxItem Content="Хранимая процедура"/>
+                        <ComboBoxItem Content="ORM"/>
+                    </ComboBox>
+
+                    <Button x:Name="btnRegister" Content="Зарегистрироваться" 
+                            Background="Blue" Foreground="White"
+                            Margin="0,20" Padding="10" 
+                            Click="BtnRegister_Click"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+
+        <!-- Кнопка для сотрудника общего отдела -->
+        <Button x:Name="btnGeneralDepartment" Grid.Row="2" 
+                Content="🏢 Вход для сотрудника общего отдела" 
+                Background="Orange" Foreground="Black"
+                Margin="0,20,0,0" Padding="10" FontSize="14"
+                Click="BtnGeneralDepartment_Click"/>
+    </Grid>
+</Window>
