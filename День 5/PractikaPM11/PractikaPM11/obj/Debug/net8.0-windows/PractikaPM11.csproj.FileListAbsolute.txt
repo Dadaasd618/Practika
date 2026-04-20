@@ -1,0 +1,88 @@
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\PractikaPM11.exe
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\PractikaPM11.deps.json
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\PractikaPM11.runtimeconfig.json
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\PractikaPM11.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\PractikaPM11.pdb
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11_MarkupCompile.cache
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11_MarkupCompile.lref
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.g.resources
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.AssemblyInfo.cs
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\refint\PractikaPM11.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.pdb
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.genruntimeconfig.cache
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\ref\PractikaPM11.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\LoginWindow.g.cs
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\MyRequestsWindow.g.cs
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\RequestWindow.g.cs
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\LoginWindow.baml
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\MyRequestsWindow.baml
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\RequestWindow.baml
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\obj\Debug\net8.0-windows\Practika.446389C8.Up2Date
+C:\Users\User\source\repos\PractikaPM11\PractikaPM11\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\PractikaPM11.exe
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\PractikaPM11.deps.json
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\PractikaPM11.runtimeconfig.json
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\PractikaPM11.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\PractikaPM11.pdb
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\LoginWindow.g.cs
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\MyRequestsWindow.g.cs
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\RequestWindow.g.cs
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11_MarkupCompile.cache
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11_MarkupCompile.lref
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\LoginWindow.baml
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\MyRequestsWindow.baml
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\RequestWindow.baml
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.g.resources
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.AssemblyInfo.cs
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\Practika.446389C8.Up2Date
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\refint\PractikaPM11.dll
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.pdb
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\PractikaPM11.genruntimeconfig.cache
+C:\Users\User\Desktop\Учебная практика(1)\День 2\PractikaPM11\День 2\PractikaPM11\obj\Debug\net8.0-windows\ref\PractikaPM11.dll
